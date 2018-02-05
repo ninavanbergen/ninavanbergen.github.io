@@ -1,0 +1,36 @@
+h2 { 
+    text-align: center;
+    margin: 4rem; 
+}
+
+article {
+   text-align: center;
+   margin-left: 10vw; 
+   margin-right: 10vw;
+   background-color: lightpink; 
+   padding-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1rem; 
+    line-height: 20px;
+    margin: 2rem;
+}
+
+article img {
+    width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
