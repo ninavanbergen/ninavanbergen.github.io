@@ -5,37 +5,43 @@
     padding: 0;
 }
 
-html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 body {
     margin-left: 10vw;
     margin-right: 10vw;
+    background-image:url(images/026%20Saint%20Petersburg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
     text-align: center; 
+    background-image: url(images/bladeren.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 1rem;
 }
 
-header h1, header h3 {
-    text-align: center; 
-    background-color: lightgrey;
-    padding: 1rem; 
+header h1 {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+header h2 {
+    padding-top: 1rem; 
+    color: white;
+    font-size: 1.2rem; 
 }
 
 header h1 img{
     width: 25%;
 }
 
-header h3 {
-    margin-top: 1rem; 
-    font-weight: 350; 
-}
-
 header nav {
     font-size: 1.3rem;
-    margin-top: 1rem; 
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 header nav ul li {
@@ -45,11 +51,12 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: black; 
+    color: white; 
+    font-weight: 800;
 }
 
 header nav ul li a:hover {
-    color: pink;
+    color: deeppink;
 }
 
 

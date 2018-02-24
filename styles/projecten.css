@@ -6,13 +6,18 @@ body > h2:first-of-type {
     font-weight: 800;
 }
 
-h2 {
-    margin: 3rem; 
+body > h2 {
     font-weight: 500;
+    background-color: #56316c;
+    padding: 1rem;
+    width: 30vw;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 5rem;
+    color: white
 }
 
 article {
-    background-color: pink;
     margin-left: 15vw;
     margin-right: 15vw;
     padding: 1rem;
@@ -24,15 +29,18 @@ p {
     line-height: 1.2rem;
 }
 
-a {
+body > a {
     text-decoration: underline;
     color: black;
-    font-size: 1.5rem;  
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    margin: 1rem;
 }
 
-
 a:hover {
-    color: pink;
+    color: deeppink;
 }
 
 section {
@@ -45,7 +53,14 @@ section img {
 }
 
 section h2 {
+    background-color: #56316c;
+    padding: 1rem;
+    width: 25vw;
+    border-radius: 1rem;
+    margin: auto;
     margin-top: 5rem;
+    margin-bottom: 2rem;
+    color: white;
 }
 
 img {
