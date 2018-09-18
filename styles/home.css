@@ -21,7 +21,12 @@ p {
     line-height: 2rem;
 }
 
-body > img {
+div {
+    column-count: 2;
+    column-width: 45%;
+}
+
+div > img {
     width: 45%;
     float: left;
     margin-left: 2vw;
