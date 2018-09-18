@@ -21,17 +21,10 @@ p {
     line-height: 2rem;
 }
 
-div {
-    column-count: 2;
-}
-
 body > img {
-    width: 5rem;
+    width: 45%;
     float: left;
     margin-left: 2vw;
     margin-right: 2vw;
     margin-top: 2rem;
 }
-
-
-
