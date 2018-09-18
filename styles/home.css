@@ -23,11 +23,11 @@ p {
 
 div {
     column-count: 2;
-    column-width: 45%;
+    column-width: 45rem;
 }
 
 body > img {
-    width: 45%;
+    width: 45rem;
     float: left;
     margin-left: 2vw;
     margin-right: 2vw;
