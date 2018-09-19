@@ -19,6 +19,8 @@ p {
     text-align: center; 
     padding: 1.5rem;
     line-height: 2rem;
+     margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .foto {
