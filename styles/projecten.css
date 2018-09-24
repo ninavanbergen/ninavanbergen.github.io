@@ -7,14 +7,13 @@ body > h2:first-of-type {
 }
 
 body > h2 {
+    border-style: double;
+    border-width: 2.5px;
     font-weight: 500;
-    background-color: #56316c;
     padding: 1rem;
     width: 30vw;
-    border-radius: 1rem;
     margin: auto;
     margin-top: 5rem;
-    color: white
 }
 
 article {
