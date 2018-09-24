@@ -2,6 +2,8 @@
 
 section {
     column-count: 3; 
+    column-width: 0;
+ 
 }
 
 body > h2 {
@@ -17,10 +19,13 @@ body > h2 {
 
 article {
     border-style: double;
+    width: 45%;
     border-width: 2.5px;
-    margin: 1rem; 
-    padding: 1rem; 
+    margin: 1rem;
+    padding: 1rem;
     padding-bottom: 4rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 section h3 {
