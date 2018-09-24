@@ -16,6 +16,7 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-top: 0;
 }
 
 header h1 {
