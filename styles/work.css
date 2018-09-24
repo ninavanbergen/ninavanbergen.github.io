@@ -6,14 +6,13 @@ section {
 }
 
 body > h2 {
+    border-style: double;
+    border-width: 2.5px;
     text-align: center;
-    background-color: #56316c;
     padding: 1rem;
     width: 25vw;
-    border-radius: 1rem;
     margin: auto;
     margin-top: 5rem;
-    color: white;
     margin-bottom: 2rem;
 }
 
