@@ -1,9 +1,9 @@
 /* work page */
 
 section {
-    column-count: 3; 
-    column-width: 0;
- 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 body > h2 {
