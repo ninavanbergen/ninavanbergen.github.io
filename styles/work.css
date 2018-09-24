@@ -1,8 +1,7 @@
 /* work page */
 
 section {
-    margin-left: 15vw; 
-    margin-right: 15vw; 
+    column-count: 3; 
 }
 
 body > h2 {
@@ -20,7 +19,7 @@ article {
     border-style: double;
     border-width: 2.5px;
     margin: 1rem; 
-    padding: 3rem; 
+    padding: 1rem; 
     padding-bottom: 4rem;
 }
 
