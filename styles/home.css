@@ -4,12 +4,12 @@ body > h2 {
 }
 
 body > h2 {
-    background-color: #56316c;
     padding: 1rem;
     width: 25vw;
     margin: auto;
     margin-top: 5rem;
-    color: white;
+    border-style: double;
+    border-width: 2.5px;
 }
 
 p {
