@@ -1,36 +1,44 @@
-body > h2 { 
-    border-style: double;
-    border-width: 2.5px;
+body > h2, section > h2 {
     text-align: center;
     padding: 1rem;
     width: 25vw;
     margin: auto;
     margin-top: 5rem;
     margin-bottom: 2rem;
+    border-style: double;
+    border-width: thick;
+    background-color: white;
 }
 
 article {
     background-color: white;
-    border-radius: 1rem;
+    border-style: double;
+    border-width: thin;
     text-align: center;
-    margin-left: 10vw; 
+    margin-left: 10vw;
     margin-right: 10vw;
     padding-bottom: 3rem;
     margin-bottom: 1rem;
 }
 
+article:first-of-type img {
+  width: 50%;
+  margin-top: 2rem;
+  border-style: double;
+}
+
+article:nth-of-type(2) img {
+  width: 90%;
+  margin-top: 2rem;
+  margin-bottom: -5rem;
+}
+
 p {
     font-size: 1.1rem;
     text-align: center;
-    padding-top: 1rem; 
+    padding-top: 1rem;
     line-height: 20px;
     margin: 2rem;
-}
-
-article img {
-    width: 20rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;  
 }
 
 article a {
@@ -40,5 +48,5 @@ article a {
 }
 
 a:hover {
-    color: darkblue;
+    color: rgba(110,111,177,1);
 }

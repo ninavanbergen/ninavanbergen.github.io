@@ -1,22 +1,36 @@
 body > h2 {
     border-style: double;
-    border-width: 2.5px;
-    text-align: center; 
+    border-width: thick;
+    text-align: center;
     padding: 1rem;
     width: 25vw;
     margin: auto;
     margin-top: 5rem;
     margin-bottom: 2rem;
+    background-color: white;
 }
 
 body > h2:first-of-type {
     margin-top: 10rem;
 }
 
+section {
+  background-color: white;
+  border-style: double;
+  border-width: thin;
+  padding: 1rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+section:last-of-type {
+  margin-bottom: 8rem;
+}
+
 p {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
     text-align: center;
-    line-height: 2rem; 
+    line-height: 2rem;
 }
 
 a {
@@ -25,9 +39,5 @@ a {
 }
 
 a:hover {
-    color: darkblue;
-}
-
-p:last-of-type {
-    padding-bottom: 8rem;
+    color: #6E6FB1;
 }

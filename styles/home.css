@@ -1,4 +1,7 @@
 body > h2 {
+    background-color: white;
+    border-style: double;
+    border-width: thick;
     text-align: center;
     margin: 4rem;
 }
@@ -8,22 +11,29 @@ body > h2 {
     width: 25vw;
     margin: auto;
     margin-top: 5rem;
-    border-style: double;
-    border-width: 2.5px;
 }
 
 p {
+    background-color: white;
+    margin-top: 1rem;
     font-size: 1.2rem;
     font-weight: 400;
-    text-align: center; 
+    text-align: center;
     padding: 1.5rem;
     line-height: 2rem;
     margin-left: 10vw;
     margin-right: 10vw;
+    border-style: double;
+    border-width: thin;
 }
 
 .foto {
     column-count: 3;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-style: double;
+    border-width: thin;
 }
 
 .foto img {
