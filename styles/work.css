@@ -51,6 +51,17 @@ section a:hover {
     background: rgba(110,111,177,1);
 }
 
+.dating {
+  background-image: url(images/datingvakje.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.dating h3 {
+  font-weight: 200;
+  color: white;
+}
+
 .bijenkorf {
   background-image: url(images/bijenkorfvakje.jpg);
   background-size: cover;
