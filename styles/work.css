@@ -51,13 +51,13 @@ section a:hover {
     background: rgba(110,111,177,1);
 }
 
-.dating {
+.datingapp {
   background-image: url(images/datingvakje.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.dating h3 {
+.datingapp h3 {
   font-weight: 200;
   color: white;
 }
